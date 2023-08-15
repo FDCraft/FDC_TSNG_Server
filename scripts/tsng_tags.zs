@@ -1,3 +1,5 @@
+# TSNG Original 
+
 <tag:items:forge:crops/cabbage>.remove(<item:farmersdelight:cabbage_leaf>);
 <tag:items:forge:fruits>.add(<item:environmental:cherries>);
 <tag:items:forge:crops>.add(<item:environmental:cherries>);
@@ -508,44 +510,10 @@
 <tag:items:forge:crops/coffeebean>.add(<item:createcafe:coffee_beans>);
 <tag:items:forge:tools/hammer>.add(<item:urushi:hammer>);
 <tag:items:forge:tools/hammer>.add(<item:beyond_earth:hammer>);
+<tag:items:forge:dusts>.add(<item:amethysttoolsmod:amethyst_dust>);
+<tag:items:forge:dusts/amethyst>.add(<item:amethysttoolsmod:amethyst_dust>);
+<tag:items:supplementaries:hourglass_dusts>.add(<item:amethysttoolsmod:amethyst_dust>);
 
-import crafttweaker.api.events.CTEventManager;
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{if(e.player.level.getBlockState(e.blockPos)==<blockstate:minecraft:enchanting_table>){e.useBlock=<constant:forge:event/result:deny>;}});
+# FDC TSNG Server
 
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{if(e.player.level.getBlockState(e.blockPos)==<blockstate:terraqueous:ender_table>){e.useBlock=<constant:forge:event/result:deny>;}});
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{if(e.player.level.getBlockState(e.blockPos)==<blockstate:terraqueous:cloud_craftbench>){e.useBlock=<constant:forge:event/result:deny>;}});
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{if(e.player.level.getBlockState(e.blockPos)==<blockstate:terraqueous:craftbench>){e.useBlock=<constant:forge:event/result:deny>;}});
-
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{
-        if(e.itemStack.definition==<item:minecraft:enchanting_table>.definition){
-                e.useItem=<constant:forge:event/result:deny>;
-        }
-});
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{
-        if(e.itemStack.definition==<item:terraqueous:ender_table>.definition){
-                e.useItem=<constant:forge:event/result:deny>;
-        }
-});
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{
-        if(e.itemStack.definition==<item:terraqueous:cloud_craftbench>.definition){
-                e.useItem=<constant:forge:event/result:deny>;
-        }
-});
-
-import crafttweaker.api.events.CTEventManager;
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{
-        if(e.itemStack.definition==<item:terraqueous:craftbench>.definition){
-                e.useItem=<constant:forge:event/result:deny>;
-        }
-});
-
-CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((e)=>{
-        if(e.itemStack.definition==<item:drinkbeer:trade_box_normal>.definition){
-                e.useItem=<constant:forge:event/result:deny>;
-        }
-});
+<tag:items:forge:salad_ingredients>.add(<tag:items:forge:cabbage>);

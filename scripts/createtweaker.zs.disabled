@@ -1,0 +1,4 @@
+import mods.create.MixingManager;
+
+<recipetype:create:mixing>.addRecipe("water", <constant:create:heat_condition:none>, [<item:kitchenkarrot:water>], [], [<fluid:minecraft:water> * 125], 25);
+<recipetype:create:mixing>.addRecipe("milk", <constant:create:heat_condition:none>, [<item:kitchenkarrot:milk>], [], [<fluid:minecraft:milk> * 125], 25);

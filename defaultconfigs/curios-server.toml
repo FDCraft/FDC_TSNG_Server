@@ -1,0 +1,20 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "charm"
+	size = 3
+
+[[curiosSettings]]
+	identifier = "head"
+
+[[curiosSettings]]
+	identifier = "back"
+
+[[curiosSettings]]
+	identifier = "necklace"
+
+[[curiosSettings]]
+	identifier = "belt"
+
+[[curiosSettings]]
+	identifier = "curio"
