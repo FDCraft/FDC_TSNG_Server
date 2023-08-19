@@ -87,6 +87,11 @@ craftingTable.addShapeless("makedarkoakwardrobe", <item:furnish:dark_oak_wardrob
 craftingTable.addShapeless("makecrimsonwardrobe", <item:furnish:crimson_wardrobe>, [<item:furnish:crimson_cabinet>, <item:furnish:crimson_cabinet>]);
 craftingTable.addShapeless("makewarpedwardrobe", <item:furnish:warped_wardrobe>, [<item:furnish:warped_cabinet>, <item:furnish:warped_cabinet>]);
 
+craftingTable.addShapeless("craftholboellialatifoliaseed", <item:fruitstack:holboellia_latifolia_seeds>, [<item:fruitstack:holboellia_latifolia>]);
+craftingTable.addShapeless("crafthuoshenfruitseed", <item:fruitstack:huoshen_fruit_seeds>, [<item:fruitstack:huoshen_fruit>]);
+craftingTable.addShapeless("craftseptembermelonseed", <item:fruitstack:september_melon_seeds>, [<item:fruitstack:september_melon>]);
+craftingTable.addShapeless("craftgoldenpuresheephornhoneyseed", <item:fruitstack:golden_pure_sheep_horn_honey_seeds>, [<item:fruitstack:golden_pure_sheep_horn_honey>]);
+
 # FDC TSNG Server
 
 # Tuff
