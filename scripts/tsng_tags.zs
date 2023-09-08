@@ -1,6 +1,6 @@
 # TSNG Original
 
-# FRUITSTACK MOD
+# Fruitstack
 
 <tag:items:forge:crops>.add(<item:fruitstack:blueberries>);
 <tag:items:forge:crops/blueberry>.add(<item:fruitstack:blueberries>);
@@ -88,7 +88,7 @@
 <tag:items:forge:berry>.add(<item:fruitstack:red_bayberry>);
 <tag:items:forge:berries>.add(<item:fruitstack:red_bayberry>);
 
-
+# Normally Add Tags
 <tag:items:forge:crops>.add(<item:delightful:cantaloupe_slice>);
 <tag:items:forge:crops/cantaloupe>.add(<item:delightful:cantaloupe_slice>);
 <tag:items:forge:fruits>.add(<item:delightful:cantaloupe_slice>);

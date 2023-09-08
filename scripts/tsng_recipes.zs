@@ -30,6 +30,7 @@ craftingTable.addShapeless("coffeebean1", <item:farmersrespite:coffee_beans>, [<
 craftingTable.addShapeless("coffeebean2", <item:croptopia:coffee_beans>, [<tag:items:forge:crops/coffee_beans>]);
 craftingTable.addShapeless("coffeebean3", <item:createcafe:coffee_beans>, [<tag:items:forge:crops/coffee_beans>]);
 
+
 # Ban Item
 
 craftingTable.remove(<item:minecraft:enchanting_table>);
@@ -71,7 +72,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
         }
 });
 
-# Simple Sandstone
+# Simple Recipes
 
 craftingTable.remove(<item:minecraft:sandstone>);
 craftingTable.remove(<item:minecraft:red_sandstone>);
@@ -92,8 +93,6 @@ craftingTable.addShapeless("crafthuoshenfruitseed", <item:fruitstack:huoshen_fru
 craftingTable.addShapeless("craftseptembermelonseed", <item:fruitstack:september_melon_seeds>, [<item:fruitstack:september_melon>]);
 craftingTable.addShapeless("craftgoldenpuresheephornhoneyseed", <item:fruitstack:golden_pure_sheep_horn_honey_seeds>, [<item:fruitstack:golden_pure_sheep_horn_honey>]);
 
-# FDC TSNG Server
-
 # Tuff
 
 craftingTable.addShapeless("tuff", <item:minecraft:tuff>, [<item:minecraft:cobblestone>, <item:supplementaries:ash>]);
@@ -105,6 +104,8 @@ craftingTable.addShapeless("paper2", <item:minecraft:paper>, [<item:urushi:fire_
 craftingTable.addShapeless("paper3", <item:minecraft:paper>, [<item:urushi:earth_element_paper>]);
 craftingTable.addShapeless("paper4", <item:minecraft:paper>, [<item:urushi:metal_element_paper>]);
 craftingTable.addShapeless("paper5", <item:minecraft:paper>, [<item:urushi:water_element_paper>]);
+
+# FDC TSNG Server
 
 # Ban Item
 

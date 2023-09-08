@@ -50,3 +50,5 @@
 <item:farmersdelight:vegetable_noodles>.addTooltip("原来只吃素也会变胖...");
 <item:farmersdelight:rice_roll_medley_block>.addTooltip("新鲜的鱼片,出炉的米饭,裹上炭烧过的海苔片,嗯,偶依稀!");
 <item:drinkbeer:spice_storm_shards>.addTooltip("警告：该物品在多人游戏下可能需要调整，原因：可以破坏以自身为中心较大范围的木质方块。");
+<item:create_sa:block_picker>.addTooltip("警告：使用该物品时需注意潜在的问题，抓取有NBT数据的方块例如容器时可能会导致其数据被清空！");
+<item:supplementaries:slingshot>.addTooltip("警告：该物品已经被限制使用，原因是可无视OPAC领地模组在其他玩家已认领的区块内放置方块，且有潜在的刷物品问题。");
